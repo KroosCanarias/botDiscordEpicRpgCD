@@ -26,8 +26,7 @@ client.on("message", (message) => {
         setTimeout(function() {
   		const channel = message.channel;
         	channel.send(message.author.toString() + " rpg training ready");
-	    }, 1500000);
+	    }, 900000);
     }
 
 });
-client.login("NzE2NjkwMzY1OTUxOTAxNzY2.XxWkCA.JYL4qeL06At8L_F9VmBVmMmPxiw"); 
